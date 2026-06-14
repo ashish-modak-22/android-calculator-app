@@ -36,6 +36,8 @@ A modern, fully functional calculator Android app built with Kotlin featuring a 
 | **Gradle (Kotlin DSL)** | Build system |
  
 ---
+## 📚 Android Concepts Covered
+ 
 | Concept | Description |
 |---|---|
 | **Activity & Lifecycle** | `AppCompatActivity`, `onCreate()` |
@@ -44,5 +46,11 @@ A modern, fully functional calculator Android app built with Kotlin featuring a 
 | **LinearLayoutCompat** | Arranging views vertically and horizontally |
 | **layout_weight** | Distributing equal space among buttons |
 | **AppCompatButton** | Flexible, theme-safe buttons |
-
+| **Custom Drawables** | Rounded button backgrounds via XML shapes |
+| **Styles & Themes** | Reusable button styles, dark app theme |
+| **State Management** | Tracking input and result state with variables |
+| **Exception Handling** | try-catch for division by zero and parse errors |
+| **String Manipulation** | Building and parsing math expressions |
+| **BODMAS Logic** | Manual implementation of operator precedence |
+ 
 ---
