@@ -89,4 +89,18 @@ CalculatorApp/
 ```
  
 ---
+
+ ## 🎨 UI Design
+ 
+ ### Color Palette
+ 
+| Element | Color | Hex |
+|---|---|---|
+| Background | Deep Dark | `#1C1C1E` |
+| Number Buttons | Dark Gray | `#2C2C2E` |
+| Operator Buttons | Orange | `#FF9F0A` |
+| Action Buttons | Medium Gray | `#3A3A3C` |
+| Delete Button | Red | `#FF453A` |
+| Display Text | White | `#FFFFFF` |
+| Expression Text | Gray | `#8E8E93` |
  
