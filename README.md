@@ -124,3 +124,18 @@ CalculatorApp/
 ```
  
 ---
+
+ 
+## ⚙️ Requirements
+ 
+| Requirement | Version |
+|---|---|
+| **Android Studio** | Hedgehog or later |
+| **Minimum SDK** | API 24 (Android 7.0 Nougat) |
+| **Target SDK** | API 36 |
+| **Kotlin** | 1.9+ |
+| **Gradle** | 8.0+ |
+| **Java** | JDK 17 |
+ 
+---
+ 
