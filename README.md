@@ -54,3 +54,39 @@ A modern, fully functional calculator Android app built with Kotlin featuring a 
 | **BODMAS Logic** | Manual implementation of operator precedence |
  
 ---
+
+## 📁 Project Structure
+ 
+```
+CalculatorApp/
+│
+├── app/
+│   ├── manifests/
+│   │   └── AndroidManifest.xml          # App config, entry point
+│   │
+│   ├── kotlin+java/
+│   │   └── com.yourname.calculatorapp/
+│   │       └── MainActivity.kt          # All calculator logic
+│   │
+│   └── res/
+│       ├── drawable/
+│       │   ├── btn_rounded_number.xml   # Dark gray rounded button background
+│       │   ├── btn_rounded_operator.xml # Orange rounded button background
+│       │   ├── btn_rounded_action.xml   # Medium gray rounded button background
+│       │   ├── btn_rounded_equal.xml    # Orange equal button background
+│       │   └── btn_rounded_delete.xml  # Red delete button background
+│       │
+│       ├── layout/
+│       │   └── activity_main.xml        # Calculator UI layout
+│       │
+│       └── values/
+│           ├── colors.xml               # All color definitions
+│           ├── styles.xml               # Reusable button styles
+│           └── themes.xml               # Dark app theme
+│
+├── build.gradle.kts                     # App level build config
+└── gradle.properties                    # Gradle settings
+```
+ 
+---
+ 
