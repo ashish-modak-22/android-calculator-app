@@ -23,3 +23,16 @@ A modern, fully functional calculator Android app built with Kotlin featuring a 
 - 🌙 Always-on dark theme
 - 🎨 Attractive UI with rounded, color-coded buttons
 ---
+ 
+## 🛠️ Technologies Used
+ 
+| Technology | Purpose |
+|---|---|
+| **Kotlin** | Primary programming language |
+| **Android SDK** | Android app development framework |
+| **AndroidX AppCompat** | Backward compatible UI components |
+| **Material Design 3** | App theming (Dark theme base) |
+| **XML Layouts** | UI design and structure |
+| **Gradle (Kotlin DSL)** | Build system |
+ 
+---
