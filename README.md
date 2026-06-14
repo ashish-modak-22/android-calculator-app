@@ -159,3 +159,13 @@ git clone https://github.com/ashish-modak-22/Android_Calculator_App.git
 - Click the ▶️ **Run** button
 - Select your device and click **OK**
 ---
+
+## 🔮 Future Improvements
+ 
+- [ ] Add bracket support
+- [ ] Calculation history with `RecyclerView`
+- [ ] Scientific calculator mode
+- [ ] Haptic feedback on button press
+- [ ] Screen rotation support with `ViewModel`
+- [ ] Copy result to clipboard on long press
+---
