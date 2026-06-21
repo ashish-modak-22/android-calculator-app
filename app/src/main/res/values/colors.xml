@@ -17,4 +17,13 @@
     <color name="text_number_btn">#FFFFFF</color>       <!-- Number button text - white -->
     <color name="text_action_btn">#FFFFFF</color>       <!-- Action button text - white -->
     <color name="text_operator_btn">#FFFFFF</color>     <!-- Operator button text - white -->
+
+    <!-- History Screen Colors -->
+    <color name="toolbar_background">#252525</color>
+    <color name="history_background">#1C1C1E</color>
+    <color name="history_card_bg">#2C2C2E</color>
+    <color name="history_expression">#8E8E93</color>
+    <color name="history_accent">#FF9F0A</color>
+    <color name="history_divider">#3A3A3C</color>
+
 </resources>

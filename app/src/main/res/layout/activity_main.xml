@@ -54,7 +54,7 @@
             android:textColor="@color/text_display"
             android:textSize="42sp"
             android:gravity="end"
-            android:maxLines="3"
+            android:maxLines="4"
             android:adjustViewBounds="true"
             android:fontFamily="sans-serif-light"
             android:paddingBottom="16dp"

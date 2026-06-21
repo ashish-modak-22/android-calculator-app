@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+     android:shape="rectangle">
+
+    <!-- Setting up the color of the history card -->
+    <solid android:color="@color/history_card_bg"/>
+
+    <!-- Corners of history cards: Making it little bit round -->
+    <corners android:radius="18dp"/>
+
+</shape>
