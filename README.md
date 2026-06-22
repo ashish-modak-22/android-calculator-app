@@ -26,6 +26,7 @@ A modern, fully functional calculator Android app built with Kotlin featuring a 
 - 📐 BODMAS/PEMDAS operator precedence
 - 💯 Percentage calculation
 - ➕ Database support where user can watch recent operations
+- 🛠️ Recycler viewer is created to show the history
 - ➖ Toggle positive/negative sign
 - ⌫ Backspace — delete last character
 - 🔄 AC — clear everything instantly
