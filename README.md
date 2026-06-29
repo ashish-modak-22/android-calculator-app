@@ -1,6 +1,15 @@
 # 🧮 Calculator App — Android (Kotlin)
+
+<div align="center">
+
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![XML](https://img.shields.io/badge/XML-FF6600?style=for-the-badge&logo=xml&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
  
 A modern, fully functional calculator Android app built with Kotlin featuring a clean dark UI, rounded buttons, and full arithmetic support with BODMAS/PEMDAS precedence.
+
+</div>
  
 ---
 
