@@ -5,9 +5,11 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
+
 // This helper class handles SQLite database operations like creation, upgrade, and version control
 class DatabaseHelper(context: Context): SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
 
+    
     // Companion object is used here to keep database configuration(name, version, table and column names)
     // This avoids duplication and ensures these values can be accessed directly using the class name
     companion object {
@@ -68,6 +70,7 @@ class DatabaseHelper(context: Context): SQLiteOpenHelper(context, DATABASE_NAME,
             null
         )
 
+        // Iterates through all rows returned by the query, convert each row into a HistoryModel Object and add it to the history list
         if(cursor.moveToFirst()){
             do {
                val item = HistoryModel(
@@ -79,6 +82,7 @@ class DatabaseHelper(context: Context): SQLiteOpenHelper(context, DATABASE_NAME,
             } while (cursor.moveToNext())
         }
 
+        // Close the cursor and database to release resources and prevent memory leaks
         cursor.close()            
         db.close()
 
