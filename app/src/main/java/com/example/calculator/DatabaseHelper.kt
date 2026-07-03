@@ -8,6 +8,8 @@ import android.database.sqlite.SQLiteOpenHelper
 // This helper class handles SQLite database operations like creation, upgrade, and version control
 class DatabaseHelper(context: Context): SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
 
+    // Companion object is used here to keep database configuration(name, version, table and column names)
+    // This avoids duplication and ensures these values can be accessed directly using the class name
     companion object {
         private const val DATABASE_NAME = "calculator_history.db"
         private const val DATABASE_VERSION = 1
