@@ -31,9 +31,10 @@ class HistoryActivity : AppCompatActivity() {
 
     private fun setupRecyclerview(){
 
+        // Retrieve all calculator history records from the local database
         val historyList = dbHelper.getAllHistory()
 
-        // Using the LinearLayout which will manage the list of items in vertical list
+        // Using the LinearLayout which will manage the list of items in vertical scrolling list
         recyclerHistory.layoutManager = LinearLayoutManager(this)
 
         // Creating adapter
