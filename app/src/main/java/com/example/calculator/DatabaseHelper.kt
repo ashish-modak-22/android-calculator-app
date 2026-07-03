@@ -5,6 +5,7 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
+// This helper class handles SQLite database operations like creation, upgrade, and version control
 class DatabaseHelper(context: Context): SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
 
     companion object {
@@ -76,7 +77,7 @@ class DatabaseHelper(context: Context): SQLiteOpenHelper(context, DATABASE_NAME,
             } while (cursor.moveToNext())
         }
 
-        cursor.close()             // Closing the cursor
+        cursor.close()            
         db.close()
 
         return historyList
