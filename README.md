@@ -198,6 +198,12 @@ git clone https://github.com/ashish-modak-22/Android_Calculator_App.git
 - [ ] Copy result to clipboard on long press
 ---
 
+## 📄 License
+ 
+This project is open source and available under the [MIT License](License).
+
+---
+
 > Built with ❤️ as a learning project to explore Android development with Kotlin.
 
 ---
