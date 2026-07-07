@@ -200,7 +200,7 @@ git clone https://github.com/ashish-modak-22/Android_Calculator_App.git
 
 ## 📄 License
  
-This project is open source and available under the [MIT License](License).
+This project is open source and available under the [Apache License 2.0](License).
 
 ---
 
