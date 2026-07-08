@@ -12,7 +12,7 @@
 ![Dark Theme](https://img.shields.io/badge/Dark%20Theme-000000?style=for-the-badge&logo=android&logoColor=white)
 ![Min SDK](https://img.shields.io/badge/Min%20SDK-24-brightgreen?style=for-the-badge&logo=android&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
 A modern, fully functional calculator Android app built with Kotlin featuring a clean dark UI, rounded buttons, and full arithmetic support with BODMAS/PEMDAS precedence.
